@@ -1,0 +1,20 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #0f2027; color: #e0f7fa; text-align: center; padding: 2rem; }
+h1 { color: #00bcd4; }
+button { margin: 0.5rem; padding: 0.75rem 1.5rem; font-size: 1rem; background: #00bcd4; color: #0f2027; border: none; border-radius: 6px; cursor: pointer; }
+button:hover { background: #00e5ff; }
+button:disabled { background: #555; cursor: not-allowed; }
+pre { margin-top: 1rem; word-break: break-all; }
+canvas, video { margin: 1rem auto; display: block; }
+#status { margin: 1rem; font-weight: bold; }
+#chat-container { max-width: 600px; margin: 0 auto; }
+#messages { height: 300px; overflow-y: scroll; border: 1px solid #00bcd4; padding: 1rem; margin-bottom: 1rem; background: #1a1a1a; }
+#msg-input { width: 70%; padding: 0.5rem; }
+#voice-container { max-width: 400px; margin: 2rem auto; }
+#call-qr { margin: 1rem auto; }
+#join-id { width: 200px; padding: 0.5rem; margin: 0.5rem; }
+#call-ui button { margin: 0.5rem; padding: 0.75rem; font-size: 1.2rem; }
+audio { width: 100%; margin: 1rem 0; }
+.sent { color: green; }
+.received { color: blue; }
+.encrypted { font-family: monospace; word-break: break-all; }
+.system { color: gray; font-style: italic; }
